@@ -27,7 +27,7 @@ socials:
   twitter:        yazmakes
 
 github:
-  repo:           https://github.com/yasminjl/blog
+  repo:           https://github.com/yasminjl/yasminjl.github.io
 
 plugins:
   - jekyll-paginate
