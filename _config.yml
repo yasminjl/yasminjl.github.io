@@ -1,26 +1,35 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Yaz Makes
+tagline:          'Making everything cute'
+description:      'I make and sell cuddly toys at <a href="https://www.etsy.com/shop/YasMakesShop/.com" target="_blank">YazMakesShop</a> on Etsy.'
+url:              http://yasminjl.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Yasmin'
+  url:            https://twitter.com/yazmakes
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.0.0
+
+socials:
+  etsy:           YazMakesShop
+  instagram:      yaz.makes
+  twitter:        yazmakes
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/yasminjl/blog
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - redcarpet
