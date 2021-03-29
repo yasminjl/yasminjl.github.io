@@ -121,6 +121,17 @@ a.sidebar-nav-item:focus {
   fill: white;
 }
 
+.post-img-preview {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-img-preview img {
+  margin: auto 1rem;
+  height: 64px;
+  width: 64px;
+}
+
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
