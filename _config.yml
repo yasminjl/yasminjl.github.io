@@ -22,9 +22,15 @@ paginate:         5
 version:          1.0.0
 
 socials:
-  etsy:           YazMakesShop
-  instagram:      yaz.makes
-  twitter:        yazmakes
+  etsy:
+    name:         YazMakesShop
+    url:          https://www.example.com
+  instagram:
+    name:         yaz.makes
+    url:          https://www.example.com
+  twitter:
+    name:         yazmakes
+    url:          https://www.example.com
 
 github:
   repo:           https://github.com/yasminjl/yasminjl.github.io

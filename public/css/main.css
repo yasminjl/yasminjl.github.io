@@ -61,6 +61,7 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+  color: var(--accent-colour-two)
 }
 
 /* Sticky sidebar
@@ -78,6 +79,20 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.sidebar-social-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar-social-item {
+  max-width: 32px;
+}
+
+.sidebar-social-items img {
+  width: 32px;
+  fill: white;
+}
 
 /* Container
  *
@@ -88,6 +103,8 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+  min-height: 100vh;
+  position: relative;
 }
 
 @media (min-width: 48em) {

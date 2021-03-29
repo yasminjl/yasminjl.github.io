@@ -1,5 +1,8 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
+    <div>
+      <img src="/public/assets/sidebar-logo.png" />
+    </div>
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
@@ -26,8 +29,22 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     </nav>
+
+    <div class="sidebar-social-items">
+      <a class="sidebar-social-item" href="{{ site.socials.etsy.url }}">
+        <img src="/public/assets/etsy.svg" />
+      </a>
+      <a class="sidebar-social-item" href="{{ site.github.repo }}">
+        <img src="/public/assets/github.svg" />
+      </a>
+      <a class="sidebar-social-item" href="{{ site.socials.instagram.url }}">
+        <img src="/public/assets/instagram.svg" />
+      </a>
+      <a class="sidebar-social-item" href="{{ site.socials.twitter.url }}">
+        <img src="/public/assets/twitter.svg" />
+      </a>
+    </div>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
