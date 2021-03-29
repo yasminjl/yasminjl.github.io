@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", Times, serif;
 }
 @media (min-width: 48em) {
   html {
@@ -20,7 +20,15 @@ html {
   }
 }
 
+@media (max-width: 48em) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
 .sidebar {
+  display: flex;
+  flex-direction: row;
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
@@ -28,6 +36,7 @@ html {
 }
 @media (min-width: 48em) {
   .sidebar {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -70,12 +79,28 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
+.sidebar-sticky {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-sticky img {
+  height: 128px;
+  width: 128px;
+}
+
 @media (min-width: 48em) {
   .sidebar-sticky {
+    display: block;
     position: absolute;
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
+  }
+
+  .sidebar-sticky img {
+    height: auto;
+    width: 100%;
   }
 }
 

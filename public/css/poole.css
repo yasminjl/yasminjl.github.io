@@ -11,7 +11,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", Times, serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -352,7 +352,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", Times, serif;
   color: #ccc;
   text-align: center;
   position: absolute;
