@@ -358,7 +358,7 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   bottom: 0;
   max-width: 600px;
-  width: 100%;
+  width: 100%
 }
 
 /* Pagination items can be `span`s or `a`s */
@@ -378,7 +378,8 @@ a.pagination-item:hover {
 
 @media (min-width: 30em) {
   .pagination {
-    margin: 3rem 0;
+    margin-bottom: 1.5rem;
+    width: 100%;
   }
   .pagination-item {
     float: left;
