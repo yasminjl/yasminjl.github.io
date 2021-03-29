@@ -24,13 +24,13 @@ version:          1.0.0
 socials:
   etsy:
     name:         YazMakesShop
-    url:          https://www.example.com
+    url:          https://www.etsy.com/shop/YasMakesShop
   instagram:
     name:         yaz.makes
-    url:          https://www.example.com
+    url:          https://www.instagram.com/yaz.makes
   twitter:
     name:         yazmakes
-    url:          https://www.example.com
+    url:          https://twitter.com/yazmakes
 
 github:
   repo:           https://github.com/yasminjl/yasminjl.github.io
