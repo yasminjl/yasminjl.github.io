@@ -24,13 +24,21 @@ html {
   .mobile-hide {
     display: none;
   }
+
+  .mobile-row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
 }
 
 .sidebar {
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem;
   color: rgba(255,255,255,.5);
   background-color: var(--primary-colour);
 }
@@ -78,13 +86,7 @@ a.sidebar-nav-item:focus {
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
  */
-
-.sidebar-sticky {
-  display: flex;
-  flex-direction: row;
-}
-
-.sidebar-sticky img {
+.sidebar-sticky .logo {
   height: 128px;
   width: 128px;
 }
@@ -98,7 +100,7 @@ a.sidebar-nav-item:focus {
     left:   1rem;
   }
 
-  .sidebar-sticky img {
+  .sidebar-sticky .logo {
     height: auto;
     width: 100%;
   }
@@ -134,7 +136,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: calc(100% - 18rem);
     margin-left: 20rem;
     margin-right: 2rem;
   }

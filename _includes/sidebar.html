@@ -1,16 +1,18 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
-    <img src="/public/assets/sidebar-logo.png" />
-    <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
-      </h1>
-      <p class="lead mobile-hide">{{ site.description }}</p>
+    <div class="mobile-row">
+      <img class="logo" src="/public/assets/sidebar-logo.png" />
+      <div class="sidebar-about">
+        <h1>
+          <a href="{{ site.baseurl }}">
+            {{ site.title }}
+          </a>
+        </h1>
+        <p class="lead mobile-hide">{{ site.description }}</p>
+      </div>  
     </div>
 
-    <nav class="sidebar-nav">
+    <nav class="sidebar-nav mobile-row">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
@@ -36,7 +38,5 @@
         <img src="/public/assets/twitter.svg" />
       </a>
     </div>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
