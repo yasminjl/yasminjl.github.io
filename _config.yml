@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -38,4 +38,5 @@ github:
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
   - redcarpet
