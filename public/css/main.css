@@ -87,7 +87,6 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 .sidebar-sticky .logo {
-  height: 128px;
   width: 128px;
 }
 
