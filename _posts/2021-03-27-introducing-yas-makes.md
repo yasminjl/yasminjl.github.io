@@ -8,6 +8,6 @@ preview-image-alt: A gold 1, on a blue background
 
 Yas Makes is my little space on the internet to show you my creations!
 
-### Minky Aliens
+## Minky Aliens
 
 My Minky aliens are the best!
