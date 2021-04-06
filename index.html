@@ -6,7 +6,7 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post-img-preview">
-    <img src="/public/assets/{{ post.preview-image }}" />
+    <img src="/public/assets/{{ post.preview-image }}" alt="{{ post.preview-image-alt }}" />
     <div class="post-preview">
       <h1 class="post-title">
         <a href="{{ post.url }}">
