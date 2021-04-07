@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Yaz Makes
 tagline:          'Making everything cute'
-description:      'I make and sell cuddly toys at <a href="https://www.etsy.com/shop/YasMakesShop" rel="noreferrer" target="_blank">YazMakesShop</a> on Etsy.'
+description:      'I make and sell cuddly toys at <a href="https://www.etsy.com/shop/YazMakesShop" rel="noreferrer" target="_blank">YazMakesShop</a> on Etsy.'
 url:              http://yasminjl.github.io
 baseurl:          /
 
@@ -24,7 +24,7 @@ version:          1.0.0
 socials:
   etsy:
     name:         YazMakesShop
-    url:          https://www.etsy.com/shop/YasMakesShop
+    url:          https://www.etsy.com/shop/YazMakesShop
   instagram:
     name:         yaz.makes
     url:          https://www.instagram.com/yaz.makes
